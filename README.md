@@ -1,6 +1,9 @@
 This module is used to create security group.
 We need the vpc id and cidr_block.
 We have to provide the ingress and egress rules.
+
+
+
 | Name | Version |
 |------|---------|
 | aws | n/a |
@@ -16,8 +19,8 @@ We have to provide the ingress and egress rules.
 
 | Name | Description |
 |------|-------------|
-| arn | n/a |
-| description | n/a |
-| id | n/a |
-| name | n/a |
+| arn | It gives the security group arn |
+| description | It gives the security group description |
+| id | It gives the security group id |
+| name | It gives the name of the security group |
 
