@@ -1,11 +1,11 @@
 resource "aws_security_group" "mysg" {
-  name = "mysg"
+  name   = "mysg"
   vpc_id = var.vpc-id
 
   ingress {
-    from_port = 443
-    protocol = "tcp"
-    to_port = 443
+    from_port   = 443
+    protocol    = "tcp"
+    to_port     = 443
     cidr_blocks = [var.cidr_blocks]
   }
   egress {
