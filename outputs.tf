@@ -3,6 +3,7 @@ output "name" {
 }
 output "id" {
   value = aws_security_group.mysg.id
+  description="It gives the security group id"
 }
 output "arn" {
   value = aws_security_group.mysg.arn
